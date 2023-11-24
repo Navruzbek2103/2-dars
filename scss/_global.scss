@@ -1,0 +1,25 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul, h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1190px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+body{
+  font-family: "Baloo Chettan 2";
+}

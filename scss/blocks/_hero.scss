@@ -1,0 +1,161 @@
+.hero {
+
+  &__wrapper {
+    display: flex;
+    padding-top: 100px;
+
+    &__block {
+      width: 552px;
+
+      &__text {
+        color: #0A1902;
+        font-family: Baloo Chettan 2;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+      }
+
+      &__title {
+        color: #59BE29;
+        font-family: Baloo Chettan 2;
+        font-size: 121.108px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 90%;
+        margin-bottom: 25px;
+      }
+
+      &__desc {
+        color: #0A1902;
+        font-family: Baloo Chettan 2;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 25px;
+      }
+
+      &__btnGroup {
+        display: flex;
+        align-items: center;
+        gap: 27px;
+
+        &__btn {
+          border: 1px solid transparent;
+          color: #FFF;
+          font-family: Baloo Chettan 2;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 160%;
+          border-radius: 20px 80px;
+          background: linear-gradient(180deg, #59BE29 0%, #59BE29 100%);
+          padding: 13px 44px;
+          box-shadow: 0px 10px 20px 0px rgba(22, 52, 7, 0.15);
+
+          &:hover {
+            color: #59BE29;
+            background: #fff;
+            border: 1px solid rgba(89, 190, 41, 0.30);
+          }
+        }
+      }
+    }
+
+    &__img {
+      width: 626px;
+      height: 405px;
+      // border: 1px solid red;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .hero {
+
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+      // display: flex;
+      padding-top: 85px;
+
+      &__block {
+        width: 820px;
+        text-align: center;
+        //   &__text {
+        //     color: #0A1902;
+        //     font-family: Baloo Chettan 2;
+        //     font-size: 25px;
+        //     font-style: normal;
+        //     font-weight: 500;
+        //     line-height: 150%;
+        //     letter-spacing: 2.5px;
+        //     text-transform: uppercase;
+        //   }
+
+        //   &__title {
+        //     color: #59BE29;
+        //     font-family: Baloo Chettan 2;
+        //     font-size: 121.108px;
+        //     font-style: normal;
+        //     font-weight: 600;
+        //     line-height: 90%;
+        //     margin-bottom: 25px;
+        //   }
+
+        //   &__desc {
+        //     color: #0A1902;
+        //     font-family: Baloo Chettan 2;
+        //     font-size: 18px;
+        //     font-style: normal;
+        //     font-weight: 400;
+        //     line-height: 160%;
+        //     margin-bottom: 25px;
+        //   }
+
+        &__btnGroup {
+          max-width: 800px;
+          width: 100%;
+          justify-content: space-between;
+          //     display: flex;
+          //     align-items: center;
+          //     gap: 27px;
+
+          &__btn {
+
+            //       border: 1px solid transparent;
+            //       color: #FFF;
+            //       font-family: Baloo Chettan 2;
+            //       font-size: 18px;
+            //       font-style: normal;
+            //       font-weight: 500;
+            //       line-height: 160%;
+            //       border-radius: 20px 80px;
+            //       background: linear-gradient(180deg, #59BE29 0%, #59BE29 100%);
+            padding: 15px 104px;
+            //       box-shadow: 0px 10px 20px 0px rgba(22, 52, 7, 0.15);
+
+            //       &:hover {
+            //         color: #59BE29;
+            //         background: #fff;
+            //         border: 1px solid rgba(89, 190, 41, 0.30);
+            //       }
+            }
+            //   }
+          }
+
+          &__img {
+            order: -1;
+            width: 656px;
+            height: 455px;
+            // border: 1px solid red;
+          }
+
+        }
+      }
+    }
+  }
